@@ -1,0 +1,42 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+.first{
+    background-color: rgba(0, 0, 0, 0.802);
+    color: rgba(244, 240, 240, 0.849);
+    padding: 20px;
+    word-spacing: 1rem;
+}
+.second-span{
+    float: right;
+}
+.btn{
+    background-color: greenyellow;
+    padding: 5px 20px 2px 20px;
+    border-radius: 5px;
+}
+/* Navbar starts */
+.nav-item{
+    display: flex;
+}
+.nav-item li{
+    list-style: none;
+    display: flex;
+    padding-inline: 20px;
+}
+.nav-item li a{
+    text-decoration: none;
+}
+.bg-img{
+    background-image: url(images/bgpic.jpg);
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+.bg-cont{
+    position: absolute;
+    top: 28pc;
+    right: 35pc;
+    text-align: center;
+}
